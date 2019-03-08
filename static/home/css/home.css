@@ -57,7 +57,7 @@ footer .home .name {
 }
 
 /* 一定买 轮播图部分*/
-#mustbuySwiper{
+#swiper-container{
     width: 100%;
 }
 /* 关键是swiper的设置，slidesPerView个数*/
@@ -89,19 +89,19 @@ footer .home .name {
 .shop .shoptab img {
     width:100%;
 }
-.shop .shopclass{
+.shop .shopclass ul{
     display: flex;
 }
-.shop .shopclass li{
+.shop .shopclass ul li{
     width: 25%;
 }
-.shop .shopclass li a{
+.shop .shopclass ul li a{
     display: inline-block;
 }
-.shop .shopclass li img{
+.shop .shopclass ul li img{
     width:100%;
 }
-.shop .shopcommend{
+.shop .shopcommend ul{
     width: 100%;
     display: flex;
     /*
@@ -110,13 +110,13 @@ footer .home .name {
     */
     flex-wrap: wrap;
 }
-.shop .shopcommend li{
+.shop .shopcommend ul li{
     width:50%;
 }
-.shop .shopcommend li a{
+.shop .shopcommend ul li a{
     display: block;
 }
-.shop .shopcommend li img{
+.shop .shopcommend ul li img{
     width: 100%;
 }
 
